@@ -309,6 +309,7 @@ color: #fff;
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
+  
  }
 
  .card__header, .card__body {
@@ -729,4 +730,37 @@ color: #fff;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
     
+  }
+
+  /* Plans Block */
+
+  .plan {
+    transition: transform .2s ease-out;
+  }
+
+  .block-plans .grid {
+    gap: 8rem 4rem;
+  }
+
+  .plan:hover {
+    transform: scale(1.05);
+  }
+  .plan--popular:hover {
+    transform: scale(1.15);
+  }
+
+  .card--primary .badge--primary {
+    background: #126de4;
+  }
+
+  .plan--popular {
+    transform: scale(1.1);
+  }
+  .block-plans .card {
+    max-width: 500px;
+  }
+
+  .block-plans .card {
+    max-width: 500px;
+    margin: 0 auto;
   }
